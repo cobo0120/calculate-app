@@ -33,7 +33,7 @@ require __DIR__.'/auth.php';
 
 
 
-Route::get('/calculate/calc1',[CalculateController::class,'calc1_show'])->name('calculate.calc1');
+Route::get('/calculates/calc1',[CalculateController::class,'calc1_show'])->name('calculates.calc1');
 
-Route::get('/calculate/calc2',[CalculateController::class,'calc2_show'])->name('calculate.calc2');
+Route::get('/calculates/calc2',[CalculateController::class,'calc2_show'])->name('calculates.calc2');
 
